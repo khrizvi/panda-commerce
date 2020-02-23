@@ -11,7 +11,7 @@
 </head>
 <body>
 <!-- Header Area Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
         <a class="navbar-brand" href="#">
             <img src="img/logo.png" alt="Website Logo">
@@ -21,7 +21,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
@@ -101,19 +101,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="cat1 p-3 align-items-center justify-content-between d-flex">
+                    <div class="cat1 p-3 mt-sm-3 align-items-center justify-content-between d-flex">
                         <h1>Watch</h1>
                         <img src="img/categories/watch.png" alt="Watch">
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="cat2 p-3 align-items-center justify-content-between d-flex">
+                    <div class="cat2 p-3 mt-sm-3 align-items-center justify-content-between d-flex">
                         <h1>Bag</h1>
                         <img src="img/categories/bag.png" alt="Bag">
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="cat3 p-3 align-items-center justify-content-between d-flex">
+                    <div class="cat3 p-3 mt-sm-3 align-items-center justify-content-between d-flex">
                         <h1>Shoes</h1>
                         <img src="img/categories/shoes.png" alt="Shoes">
                     </div>
@@ -123,7 +123,7 @@
     </section>
 
     <!-- Shoes Section-->
-    <section id="product" class="bg-light my-5 py-5">
+    <section id="product" class="mt-5 py-5">
         <div class="container">
             <div class="d-flex align-items-center justify-content-between">
                 <h1>Shoes</h1>
@@ -131,7 +131,7 @@
             </div>
             <!-- Card -->
             <div class="card-deck py-3">
-                <div class="card ">
+                <div class="card">
                     <img src="img/shoes/shoe-1.png" class="card-img-top" alt="shoe-1">
                     <div class="card-body">
                         <h2 class="card-title">Nike Man Shoes</h2>
@@ -164,6 +164,77 @@
             </div>
         </div>
     </section>
+
+    <!-- Bag Section -->
+    <section id="product" class="py-5">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between mb-3">
+                <h1>Bags</h1>
+                <a href="#">See All</a>
+            </div>
+        <div class="card-deck">
+            <div class="card ">
+                <img src="img/bags/bag-1.png" class="card-img-top" alt="bag-1">
+                <div class="card-body">
+                    <h2 class="card-title">Ison Bagpack</h2>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <h4 class="pb-2">$999</h4>
+                    <div class="card-footer">
+                        <button class="button-design">Buy Now >></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/bags/bag-2.png" class="card-img-top" alt="bag-2">
+                <div class="card-body">
+                    <h2 class="card-title">Bayoung Bagpack</h2>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <h4 class="pb-2">$2799</h4>
+                    <div class="card-footer">
+                        <button class="button-design">Buy Now >></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/bags/bag-3.png" class="card-img-top" alt="bag-3">
+                <div class="card-body">
+                    <h2 class="card-title">Reebook Backpack</h2>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <h4 class="pb-2">$999</h4>
+                    <div class="card-footer">
+                        <button class="button-design">Buy Now >></button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Subscribe Section -->
+    <section id="contact" class="text-center my-5">
+        <div class="container slide pink-bg subscribeheight d-flex justify-content-center align-items-center">
+            
+                <div>
+                    <h3>Lets Stay In</h3>
+                    <p class="text-muted">Gets updated on sales and more</p>
+                    <div class="input-group">
+                        <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="input-group-text button-design-subscribe" id="basic-addon2">Subscribe</button>
+                        </div>
+                    </div>
+                </div>   
+       </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-muted">
+        <small>Panda e-commarce 2020 &copy; All Right Reserve By Kashfi Hasan Rizvi</small>
+    </footer>
     
 
 <!-- Bootstrap Js-->

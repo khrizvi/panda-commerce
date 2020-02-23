@@ -51,3 +51,48 @@ a:hover{
      text-decoration: none;
      color: hotpink;
 }
+.card{
+    border: none;
+    box-shadow: 10px 10px 20px #eceb93;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#product{
+    background: #F8F8F8;
+}
+.subscribeheight {
+    height: 300px;
+}
+.input-group input{
+    border: none;
+    padding: 5px;
+}
+.button-design-subscribe{
+    background: #FF1D75;
+    color: #fff;
+    border: none;
+    padding: 8px 25px;
+}
+.card-footer{
+    border: 0;
+    background: none;
+}
+
+@media screen and (max-width:991px) {
+    .cat2 img {
+        width: 67px;
+    }
+}
+@media screen and (max-width:767px) {
+    .cat2 img {
+        width: 100px;
+    }
+}
+@media screen and (max-width:575px) {
+    .cat1, .cat2, .cat3 {
+        margin-top: 16px;
+    }
+}
